@@ -1,0 +1,96 @@
+#mySketch {
+	width: 800px;
+	height: 250px;
+}
+body {
+		margin:auto;
+		background-color: #e4d0ff;
+		width:85%;
+	}
+
+header {
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	margin: auto;
+	position: relative;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.sec {
+	display: flex;
+	width: 85%;
+	justify-content: space-around;
+	margin: auto;
+}
+section {
+    width: 32%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: white;
+	box-shadow: 3px 3px #be9eff;
+	border-radius: 25px;
+}
+
+article {
+	padding: 20px;
+	margin-bottom: 50px;
+}
+h1{
+    font-size: 1.8em;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 10%;
+	color: white;
+	text-shadow: 2px 2px #be9eff;
+}
+
+h2 {
+	font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10%;
+	padding-bottom: 1%;
+	color: white;
+	text-shadow: 1.7px 1.7px #be9eff;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: .85em;
+	color:#c69dff;
+	font-family: 'Gayathri', sans-serif;
+}
+a:hover {
+	background-color:#f3eaff;
+  }
+a:visited {
+	color:  #967bb6;
+  }
+footer {
+	text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-size: .8em;  
+}
+h3 {
+	font-size: 1.3em;
+	font-family:'Gayathri', sans-serif;;
+    text-align: left;
+	padding-left: 14%;
+	color:#c69eff;
+
+}
+.foot a{
+   padding: 1%;
+   color:black;
+}
+.container{
+	max-width: 1200px;
+	min-width: 800px;
+}
